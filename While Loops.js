@@ -1,4 +1,4 @@
-The while loop continues as long as the condition evaluates to true. When it evaluates to false, the loop stops.
+//The while loop continues as long as the condition evaluates to true. When it evaluates to false, the loop stops.
 
 // set count variable to a number
 var count = 0;
