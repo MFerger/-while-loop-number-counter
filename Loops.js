@@ -47,3 +47,16 @@ do {
 while (condition);
 
 //example
+//set a condition to true outside of the function
+var otherVar = true;
+var getToDaChoppa = function(){
+  do {
+      console.log("This will work because it is " + otherVar +  ".");
+      //set it false once it executed 
+      otherVar = false;
+  } while(otherVar);
+};
+getToDaChoppa();
+
+//---------------------------------------------------------------------------------------------------------------------------
+//For-in loops 
